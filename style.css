@@ -1,0 +1,115 @@
+:root{
+    --cor_font_head:#e0ffff;
+    --cor_backG:#d6fcfc;
+    --cor_font_hover_head:#7e9292;
+    --cor_font_text: #012b01;
+    --cor_box: #32cd32;
+    --cor_hover_box: #228B22;
+    --fonte_head: Arial;
+    --fonte_text: Garamond;
+}
+body , ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.logo{
+    text-align: center;
+    background-color: var(--cor_hover_box);
+    align-items: center;
+    padding-top: 15px;
+    border-style: solid;
+    border-color: var(--cor_hover_box);
+}
+.logo h1{
+    color: var(--cor_font_head);
+    padding-bottom: 8px;
+}
+
+
+.cabecalho{
+    background: var(--cor_box);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 95px; 
+}
+.cabecalho a.imgHome{
+    width: auto;
+    height: 95px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.8s;
+}
+
+.imgHome:hover{
+    background-color: var(--cor_hover_box);
+}
+
+
+.menu {
+    display: flex;
+    margin-left: 10px;
+    margin-right:10px;
+
+}
+.menu a{
+    text-decoration: none;
+    font-family: var(--fonte_head);
+    color: var(--cor_font_head);
+    padding: 10px;
+}
+.menu li{
+    width: auto;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor_box);
+    transition: background-color 0.8s;
+}
+.bot{
+    width: auto;
+    height: 50px;
+    background-color: var(--cor_hover_box);
+}
+.menu li:hover{
+    background-color: var(--cor_hover_box);
+}
+body{
+    background-color: var(--cor_font_head);
+}
+.textoTittle{
+    margin-top: 5px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    color: var(--cor_font_text);
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--cor_hover_box);
+    color: var(--cor_backG);
+}
+.bot{
+    width: auto;
+    height: 50px;
+    background-color: var(--cor_hover_box);
+}
+footer {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+    font-family: Times, Times New Roman, serif;
+}
+
+footer img {
+    margin-left: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 35px;
+}

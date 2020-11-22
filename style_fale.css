@@ -1,0 +1,58 @@
+:root{
+    --cor_font_head:#e0ffff;
+    --cor_backG:#e0ffff;
+    --cor_font_hover_head:#7e9292;
+    --cor_font_text: #012b01;
+    --cor_box: #32cd32;
+    --cor_hover_box: #228B22;
+    --fonte_head: Arial;
+    --fonte_text: Garamond;
+}
+.textoTittle{
+    margin-top: 5px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    color: var(--cor_font_text);
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--cor_hover_box);
+    color: var(--cor_backG);
+}
+
+.redes{
+    flex-wrap: wrap;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+    padding-top:12px;
+    background-color: var(--cor_font_head);
+}
+.ext{
+    margin-left: 30px;
+    border-radius: 3em; 
+    text-align: center;
+    height: auto;
+    width: 200px;
+    background-color: #32cd32;
+    transition: background-color 0.8s;
+}
+.ext:hover{
+    background-color: #228B22;
+    box-shadow: 3px 3px 6px #012b01;
+}
+
+.ext:hover p{
+    color: var(--cor_backG);
+}
+
+.ext p{
+    color: var(--cor_font_text) ;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+
+.ext img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

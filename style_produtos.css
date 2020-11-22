@@ -1,0 +1,76 @@
+:root{
+    --cor_font_head:#e0ffff;
+    --cor_backG:#e0ffff;
+    --cor_font_hover_head:#7e9292;
+    --cor_font_text: #012b01;
+    --cor_box: #32cd32;
+    --cor_hover_box: #228B22;
+    --fonte_head: Arial;
+    --fonte_text: Garamond;
+}
+
+.textoTittle{
+    margin-top: 5px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    color: var(--cor_font_text);
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--cor_hover_box);
+    color: var(--cor_backG);
+}
+
+.produtos{
+    flex-wrap: wrap;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top:30px;
+    background-color: var(--cor_font_head);
+    
+}
+.produto{
+    padding: 8px;
+    margin-right: 30px;
+    border-radius: 1em; 
+    text-align: center;
+    height: 263.5px;
+    width: 200px;
+    background-color: var(--cor_font_head);
+    transition: background-color 0.8s;
+    margin-left: 2px;
+
+}
+.nome_produto{
+    font-size: 1.3em;
+    font-family: var(--fonte_head);
+    color: var(--cor_font_text);
+}
+
+
+
+
+.produto_desc_box{
+    opacity: 0;
+    transition: 0.8s;
+    height: 263.5px;
+    width: 200px; 
+    border-radius: 1em;
+    padding: 8px;
+    background-color:var(--cor_hover_box);
+}
+.produto_desc_box:hover{
+    opacity: 100;
+
+}
+.produto_desc{
+    flex-grow: initial;
+    font-size: 1em;
+    font-family: var(--fonte_head);
+    color: var(--cor_font_head);
+
+}
+
+
+
